@@ -73,7 +73,7 @@ if isempty(device)
     return
 end
 
-k = strcmpi('National Instruments USB-6009', device.Description);
+k = strcmpi('National Instruments USB-6009', {device.Description});
 
 if all(k==0)
     e = 0;
