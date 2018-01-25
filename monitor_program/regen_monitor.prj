@@ -8,7 +8,7 @@
       <file>${PROJECT_ROOT}\regen_monitor_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\regen_monitor_resources\icon_16.png</file>
     </param.icons>
-    <param.version>1.7</param.version>
+    <param.version>1.8</param.version>
     <param.authnamewatermark />
     <param.email />
     <param.company>Miller Group</param.company>
@@ -23,7 +23,8 @@
 2016/11/22 Updated logging (decoupled from refreshrate)
 1.5 2016/11/30 moved files to git repository. created temperature adjustable calibration
 1.6 2017/03/31 Updated GUI. Included power fluctuations. Removed crossover. Added current calibration implementation. Updated pump calibrations.
-1.7 2018/01/16 Minor update to pump threshold</param.description>
+1.7 2018/01/16 Minor update to pump threshold
+1.8 2018/01/25 Fixes bug occurring when multiples DACs are connected.</param.description>
     <param.screenshot>${PROJECT_ROOT}\regen_monitor_splash.jpeg</param.screenshot>
     <param.guid />
     <param.installpath.string>\Miller Group\regen_monitor\</param.installpath.string>
